@@ -5,7 +5,7 @@
 > *I see no reason why gunpowder treason*
 > *Should ever be forgot.*
 
-A night-time London Omarchy theme drawn as 1930s Underground travel posters. A disused station with one lamp still burning, a line of dominoes waiting to fall, a train full of roses, Westminster at night, and the last rose on a rooftop window ledge. The screen is cold blue-black with ivory text, brass for the quiet details and one rose crimson for what needs your attention.
+A night-time London Omarchy theme drawn as 1930s Underground travel posters. A disused station with one lamp still burning, a line of dominoes waiting to fall, a train full of roses vanishing into the tunnel, Westminster at night, Lady Justice above the Old Bailey, and the last rose on a rooftop window ledge. The screen is cold blue-black with ivory text, brass for the quiet details and one rose crimson for what needs your attention.
 
 ## Preview
 
