@@ -1,0 +1,9 @@
+# cliamp theme - Scarlet Carson
+# Installed by THPM to ~/.config/cliamp/themes/omarchy.toml
+# thpm:cliamp-use-native
+accent = "#BE1440"
+bright_fg = "#FEF4DE"
+fg = "#E4DAC4"
+green = "#8FB38E"
+yellow = "#CDB884"
+red = "#F0444A"

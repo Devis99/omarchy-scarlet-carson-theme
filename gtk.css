@@ -1,0 +1,64 @@
+/* Scarlet Carson for GTK3/GTK4: mask ivory, quiet steel, rose-state marks. */
+@define-color accent_color #BE1440;
+@define-color accent_bg_color #7A142C;
+@define-color accent_fg_color #E4DAC4;
+@define-color destructive_color #F0444A;
+@define-color destructive_bg_color #F0444A;
+@define-color destructive_fg_color #161922;
+@define-color success_color #8FB38E;
+@define-color success_bg_color #8FB38E;
+@define-color warning_color #CDB884;
+@define-color error_color #F0444A;
+
+@define-color window_bg_color #161922;
+@define-color window_fg_color #E4DAC4;
+@define-color view_bg_color #0D1019;
+@define-color view_fg_color #E4DAC4;
+@define-color headerbar_bg_color #161922;
+@define-color headerbar_fg_color #FEF4DE;
+@define-color headerbar_border_color #7D8797;
+@define-color headerbar_backdrop_color #0D1019;
+@define-color sidebar_bg_color #0D1019;
+@define-color sidebar_fg_color #E4DAC4;
+@define-color sidebar_backdrop_color #0D1019;
+@define-color sidebar_border_color #7D8797;
+@define-color secondary_sidebar_bg_color #222532;
+@define-color secondary_sidebar_fg_color #E4DAC4;
+@define-color card_bg_color #222532;
+@define-color card_fg_color #E4DAC4;
+@define-color dialog_bg_color #222532;
+@define-color dialog_fg_color #E4DAC4;
+@define-color popover_bg_color #222532;
+@define-color popover_fg_color #E4DAC4;
+@define-color shade_color rgba(4, 6, 13, 0.72);
+@define-color scrollbar_outline_color #0D1019;
+
+/* GTK3 compatibility aliases. */
+@define-color theme_bg_color #161922;
+@define-color theme_fg_color #E4DAC4;
+@define-color theme_base_color #0D1019;
+@define-color theme_text_color #E4DAC4;
+@define-color theme_selected_bg_color #7A142C;
+@define-color theme_selected_fg_color #E4DAC4;
+@define-color insensitive_bg_color #222532;
+@define-color insensitive_fg_color #7D8797;
+@define-color borders #7D8797;
+
+selection {
+  background-color: #7A142C;
+  color: #E4DAC4;
+  border: 1px solid #BE1440;
+}
+
+button:hover,
+.linked > button:hover {
+  background-color: #222532;
+}
+
+button:checked,
+row:selected,
+.view:selected {
+  background-color: #7A142C;
+  color: #E4DAC4;
+  border: 1px solid #BE1440;
+}
