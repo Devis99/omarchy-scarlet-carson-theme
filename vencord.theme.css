@@ -19,26 +19,26 @@ body {
     color-scheme: dark;
 
     /* Palette roles: blue-black ground, mask ivory, steel and rose states. */
-    --machine-void: #04060D;
-    --machine-page: #0D1019;
-    --machine-wine: #5D1537;
-    --machine-ground: #161922;
-    --machine-panel: #222532;
-    --machine-panel-raised: #222532;
-    --machine-line: #7D8797;
-    --machine-steel: #7D8797;
-    --machine-ivory: #E4DAC4;
-    --machine-bright-ivory: #FEF4DE;
-    --machine-crimson: #BE1440;
-    --machine-crimson-bright: #DB3956;
-    --machine-selection: #7A142C;
-    --machine-cyan: #A8A9D0;
-    --machine-red: #F0444A;
-    --machine-red-bright: #FF706E;
+    --scarlet-void: #04060D;
+    --scarlet-page: #0D1019;
+    --scarlet-wine: #5D1537;
+    --scarlet-ground: #161922;
+    --scarlet-panel: #222532;
+    --scarlet-panel-raised: #222532;
+    --scarlet-line: #7D8797;
+    --scarlet-steel: #7D8797;
+    --scarlet-ivory: #E4DAC4;
+    --scarlet-bright-ivory: #FEF4DE;
+    --scarlet-crimson: #BE1440;
+    --scarlet-crimson-bright: #DB3956;
+    --scarlet-selection: #7A142C;
+    --scarlet-cyan: #A8A9D0;
+    --scarlet-red: #F0444A;
+    --scarlet-red-bright: #FF706E;
 
     /* Rose-lit night layer. */
-    --page-human: var(--machine-ivory);
-    --page-instrument: var(--machine-steel);
+    --page-human: var(--scarlet-ivory);
+    --page-instrument: var(--scarlet-steel);
     --page-surplus: rgba(228, 218, 196, 0.12);
 
     /* Midnight layout */
@@ -58,47 +58,47 @@ body {
     --unrounding: on;
     --small-user-panel: on;
     --panel-labels: on;
-    --label-color: var(--machine-steel);
+    --label-color: var(--scarlet-steel);
 
     /* Midnight color system */
     --colors: on;
-    --text-0: var(--machine-ground);
-    --text-1: var(--machine-bright-ivory);
+    --text-0: var(--scarlet-ground);
+    --text-1: var(--scarlet-bright-ivory);
     --text-2: var(--page-human);
     --text-3: var(--page-human);
     --text-4: var(--page-instrument);
     --text-5: #7D8797;
-    --bg-1: var(--machine-panel-raised);
-    --bg-2: var(--machine-panel);
+    --bg-1: var(--scarlet-panel-raised);
+    --bg-2: var(--scarlet-panel);
     --bg-3: #222532;
-    --bg-4: var(--machine-ground);
+    --bg-4: var(--scarlet-ground);
     --hover: rgba(228, 218, 196, 0.055);
     --active: var(--page-surplus);
-    --active-2: var(--machine-selection);
+    --active-2: var(--scarlet-selection);
     --message-hover: rgba(228, 218, 196, 0.035);
-    --accent-1: var(--machine-bright-ivory);
-    --accent-2: var(--machine-crimson);
+    --accent-1: var(--scarlet-bright-ivory);
+    --accent-2: var(--scarlet-crimson);
     /* Midnight uses crimson for interaction states; frames and dividers stay muted. */
-    --accent-3: var(--machine-crimson);
-    --accent-4: var(--machine-crimson-bright);
-    --accent-5: var(--machine-crimson-bright);
-    --accent-new: var(--machine-crimson);
+    --accent-3: var(--scarlet-crimson);
+    --accent-4: var(--scarlet-crimson-bright);
+    --accent-5: var(--scarlet-crimson-bright);
+    --accent-new: var(--scarlet-crimson);
     --mention: rgba(122, 20, 44, 0.12);
     --mention-hover: rgba(122, 20, 44, 0.18);
     --online: #A6CCA5;
-    --dnd: var(--machine-red);
+    --dnd: var(--scarlet-red);
     --idle: #CDB884;
-    --streaming: var(--machine-cyan);
-    --offline: var(--machine-steel);
+    --streaming: var(--scarlet-cyan);
+    --offline: var(--scarlet-steel);
     --border-light: rgba(125, 135, 151, 0.16);
     --border: rgba(125, 135, 151, 0.30);
-    --border-hover: var(--machine-crimson);
+    --border-hover: var(--scarlet-crimson);
     --button-border: transparent;
-    --red-1: var(--machine-red-bright);
-    --red-2: var(--machine-red);
-    --red-3: var(--machine-red-bright);
-    --red-4: var(--machine-red);
-    --red-5: var(--machine-red);
+    --red-1: var(--scarlet-red-bright);
+    --red-2: var(--scarlet-red);
+    --red-3: var(--scarlet-red-bright);
+    --red-4: var(--scarlet-red);
+    --red-5: var(--scarlet-red);
     --green-1: #A6CCA5;
     --green-2: #8FB38E;
     --green-3: #8FB38E;
@@ -121,28 +121,28 @@ body {
     --purple-5: #161922;
 
     /* Discord semantic surfaces */
-    --background-primary: var(--machine-ground);
+    --background-primary: var(--scarlet-ground);
     --background-secondary: #222532;
-    --background-secondary-alt: var(--machine-panel);
-    --background-tertiary: var(--machine-void);
-    --background-accent: var(--machine-line);
-    --background-floating: var(--machine-panel-raised);
-    --background-base-low: var(--machine-ground);
-    --background-base-lower: var(--machine-void);
-    --background-base-lowest: var(--machine-void);
-    --background-surface-high: var(--machine-panel);
-    --background-surface-higher: var(--machine-panel-raised);
+    --background-secondary-alt: var(--scarlet-panel);
+    --background-tertiary: var(--scarlet-void);
+    --background-accent: var(--scarlet-line);
+    --background-floating: var(--scarlet-panel-raised);
+    --background-base-low: var(--scarlet-ground);
+    --background-base-lower: var(--scarlet-void);
+    --background-base-lowest: var(--scarlet-void);
+    --background-surface-high: var(--scarlet-panel);
+    --background-surface-higher: var(--scarlet-panel-raised);
     --background-surface-highest: #222532;
-    --bg-base-primary: var(--machine-ground);
+    --bg-base-primary: var(--scarlet-ground);
     --bg-base-secondary: #222532;
-    --bg-base-tertiary: var(--machine-panel);
-    --bg-surface-overlay: var(--machine-panel-raised);
-    --bg-surface-raised: var(--machine-panel-raised);
-    --chat-background-default: var(--machine-ground);
-    --home-background: var(--machine-void);
-    --channeltextarea-background: var(--machine-panel);
-    --modal-background: var(--machine-panel-raised);
-    --modal-footer-background: var(--machine-panel);
+    --bg-base-tertiary: var(--scarlet-panel);
+    --bg-surface-overlay: var(--scarlet-panel-raised);
+    --bg-surface-raised: var(--scarlet-panel-raised);
+    --chat-background-default: var(--scarlet-ground);
+    --home-background: var(--scarlet-void);
+    --channeltextarea-background: var(--scarlet-panel);
+    --modal-background: var(--scarlet-panel-raised);
+    --modal-footer-background: var(--scarlet-panel);
     --background-mentioned: var(--mention);
     --background-mentioned-hover: var(--mention-hover);
     --background-message-hover: var(--message-hover);
@@ -151,35 +151,35 @@ body {
     --background-modifier-active: var(--active);
     --background-modifier-selected: var(--active-2);
     --background-modifier-accent: rgba(228, 218, 196, 0.16);
-    --text-normal: var(--machine-ivory);
-    --text-muted: var(--machine-steel);
-    --text-primary: var(--machine-bright-ivory);
-    --text-secondary: var(--machine-ivory);
-    --text-tertiary: var(--machine-steel);
-    --text-link: var(--machine-cyan);
-    --text-brand: var(--machine-crimson);
-    --header-primary: var(--machine-bright-ivory);
-    --header-secondary: var(--machine-ivory);
-    --interactive-normal: var(--machine-ivory);
-    --interactive-hover: var(--machine-bright-ivory);
-    --interactive-active: var(--machine-crimson-bright);
-    --interactive-muted: var(--machine-steel);
-    --channels-default: var(--machine-steel);
-    --channel-icon: var(--machine-ivory);
-    --brand-500: var(--machine-crimson);
-    --brand-560: var(--machine-crimson-bright);
+    --text-normal: var(--scarlet-ivory);
+    --text-muted: var(--scarlet-steel);
+    --text-primary: var(--scarlet-bright-ivory);
+    --text-secondary: var(--scarlet-ivory);
+    --text-tertiary: var(--scarlet-steel);
+    --text-link: var(--scarlet-cyan);
+    --text-brand: var(--scarlet-crimson);
+    --header-primary: var(--scarlet-bright-ivory);
+    --header-secondary: var(--scarlet-ivory);
+    --interactive-normal: var(--scarlet-ivory);
+    --interactive-hover: var(--scarlet-bright-ivory);
+    --interactive-active: var(--scarlet-crimson-bright);
+    --interactive-muted: var(--scarlet-steel);
+    --channels-default: var(--scarlet-steel);
+    --channel-icon: var(--scarlet-ivory);
+    --brand-500: var(--scarlet-crimson);
+    --brand-560: var(--scarlet-crimson-bright);
     --brand-600: #B4527A;
-    --control-brand-foreground: var(--machine-crimson);
-    --control-brand-foreground-new: var(--machine-crimson);
-    --button-danger-background: var(--machine-red);
+    --control-brand-foreground: var(--scarlet-crimson);
+    --control-brand-foreground-new: var(--scarlet-crimson);
+    --button-danger-background: var(--scarlet-red);
     --info-warning-foreground: #CDB884;
     --status-positive: #A6CCA5;
     --status-warning: #CDB884;
-    --status-danger: var(--machine-red);
+    --status-danger: var(--scarlet-red);
     --status-success: #A6CCA5;
-    --border-subtle: var(--machine-line);
-    --input-background: var(--machine-panel);
-    --input-border: var(--machine-line);
+    --border-subtle: var(--scarlet-line);
+    --input-background: var(--scarlet-panel);
+    --input-border: var(--scarlet-line);
     --scrollbar-thin-thumb: rgba(228, 218, 196, 0.35);
     --scrollbar-auto-thumb: rgba(228, 218, 196, 0.35);
     --scrollbar-thin-track: transparent;
@@ -197,8 +197,8 @@ body {
 /* Selected text uses wine fill and mask-ivory text. */
 :is(div, span, code, a)::selection,
 .highlight {
-    background: var(--machine-selection) !important;
-    color: var(--machine-ivory) !important;
+    background: var(--scarlet-selection) !important;
+    color: var(--scarlet-ivory) !important;
 }
 
 /* Keep Discord surfaces in the blue-black night range. */
@@ -206,7 +206,7 @@ body,
 [class*="appMount"],
 [class*="bg_"],
 [class*="base_"] {
-    background-color: var(--machine-page) !important;
+    background-color: var(--scarlet-page) !important;
 }
 
 /* Gallery surfaces stay quiet behind the message list. */
@@ -221,7 +221,7 @@ body,
     .membersWrap_c8ffbb,
     .members_c8ffbb
 ) {
-    background-color: var(--machine-ground) !important;
+    background-color: var(--scarlet-ground) !important;
     background-image: none !important;
     border-color: var(--border-subtle) !important;
 }
@@ -237,24 +237,24 @@ body,
 }
 
 :is([class*="modeSelected"], [class*="modeConnected"]) a[data-list-item-id^="channels___"] {
-    border-left-color: var(--machine-crimson) !important;
+    border-left-color: var(--scarlet-crimson) !important;
 }
 
 :is([class*="modeSelected"], [class*="modeConnected"]) :is([class*="name"], [class*="icon"]),
 :is([class*="modeSelected"], [class*="modeConnected"]) svg {
-    color: var(--machine-crimson-bright) !important;
-    fill: var(--machine-crimson-bright) !important;
+    color: var(--scarlet-crimson-bright) !important;
+    fill: var(--scarlet-crimson-bright) !important;
 }
 
 :is([class*="unreadBar"], [class*="unreadPill"], [class*="numberBadge"], [class*="textBadge"]) {
-    background: var(--machine-crimson) !important;
-    color: var(--machine-ground) !important;
+    background: var(--scarlet-crimson) !important;
+    color: var(--scarlet-ground) !important;
 }
 
 /* Muted divider below the channel header and composer. */
 :is([class*="container__9293f"], [class*="themed__9293f"]) {
     border-bottom: 1px solid var(--border) !important;
-    background: var(--machine-ground) !important;
+    background: var(--scarlet-ground) !important;
 }
 
 :is([class*="channelTextArea"], [class*="searchBar"], input, textarea):focus-within,
@@ -270,37 +270,37 @@ body,
 
 [class*="mentioned"] {
     background: var(--mention) !important;
-    box-shadow: inset 3px 0 0 var(--machine-crimson) !important;
+    box-shadow: inset 3px 0 0 var(--scarlet-crimson) !important;
 }
 
 :is([class*="messageContent"], [class*="markup"]) a {
-    color: var(--machine-cyan) !important;
+    color: var(--scarlet-cyan) !important;
     text-decoration: underline !important;
     text-underline-offset: 2px;
 }
 
 :is([class*="messageContent"], [class*="markup"]) [class*="mention"] {
-    color: var(--machine-ivory) !important;
+    color: var(--scarlet-ivory) !important;
     background: rgba(122, 20, 44, 0.10) !important;
     border: 1px solid rgba(190, 20, 64, 0.30) !important;
 }
 
 /* Timestamps stay legible and muted. */
 :is([class*="timestamp"], [class*="edited"], [class*="botTag"]) {
-    color: var(--machine-steel) !important;
+    color: var(--scarlet-steel) !important;
     opacity: 0.78;
     letter-spacing: 0.02em;
 }
 
 /* Code and cards use muted structure. */
 :is(code, pre, [class*="codeContainer"], [class*="embedFull"]) {
-    background: var(--machine-panel-raised) !important;
+    background: var(--scarlet-panel-raised) !important;
     border: 1px solid var(--border) !important;
     border-left: 3px solid var(--green-2) !important;
 }
 
 [class*="cardPrimary"] {
-    background: var(--machine-panel) !important;
+    background: var(--scarlet-panel) !important;
     border: 1px solid var(--border-light) !important;
 }
 
@@ -308,13 +308,13 @@ body,
 :is([class*="toolbar"], [class*="chatHeader"]) :is(button, [role="button"]) {
     background: transparent !important;
     border: 1px solid transparent !important;
-    color: var(--machine-ivory) !important;
+    color: var(--scarlet-ivory) !important;
 }
 
 :is([class*="toolbar"], [class*="chatHeader"]) :is(button, [role="button"]):hover {
     background: rgba(228, 218, 196, 0.10) !important;
     border-color: var(--border) !important;
-    color: var(--machine-ivory) !important;
+    color: var(--scarlet-ivory) !important;
 }
 
 :is([class*="toolbar"], [class*="chatHeader"]) :is(button, [role="button"]):hover svg {
@@ -328,15 +328,15 @@ body,
 }
 
 [class*="membersGroup"] {
-    color: var(--machine-steel) !important;
+    color: var(--scarlet-steel) !important;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 /* Popouts, menus and modals use ivory frames; crimson stays on state marks. */
 :is([class*="popout_"], [class*="menu_"], [class*="modal_"], [role="dialog"]) {
-    border: 2px solid var(--machine-ivory) !important;
-    box-shadow: 4px 4px 0 var(--machine-wine) !important;
+    border: 2px solid var(--scarlet-ivory) !important;
+    box-shadow: 4px 4px 0 var(--scarlet-wine) !important;
 }
 
 /* Focus rings; no glow everywhere. */
